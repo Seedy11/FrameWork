@@ -3,6 +3,34 @@ body {
     background-color: rgb(230, 217, 217);
 
 }
+@media print {
+    body {
+    color: black;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    height: 25rem;
+    margin: 20px;
+    align-self: center;
+    width: 100%;
+}
+
+#ImageWrapper {
+    
+    border-radius: 10px;
+    margin: 20px;
+}
+h2 {
+    text-align: left;
+    margin: 8px;
+}
+
+nav {
+   display: none;
+} 
+}
 
  img {
     height: 20rem;
